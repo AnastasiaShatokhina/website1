@@ -1,0 +1,155 @@
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+<style>
+@font-face {
+  font-family: "ST-Nizhegorodsky";
+  src: url("fonts/STNizhegorodskyRegular.woff") format("woff");    
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("fonts/Lato-Light.woff") format("woff");    
+}
+
+
+@font-face {
+  font-family: "Finlandica";
+  src: url("fonts/Finlandica-Regular.woff") format("woff");    
+}
+
+.topmenu {
+  
+}
+.topmenu ul {
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем отступы*/
+  padding-left: 0; /*убираем отступы*/
+  margin-top:25px;
+}
+.topmenu a {
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+  background:#FFFFFF; /*добавляем фон к пункту меню*/
+  color:#000000; /*меняем цвет ссылок*/
+  padding:10px 50px;
+  font-family: Finlandica;
+}
+.topmenu a:hover {
+  background:;/*добавляем эффект при наведении*/
+}
+.topmenu li {
+  float:left; /*Размещаем список горизонтально для реализации меню*/
+  margin-right:0px; /*Добавляем отступ у пунктов меню*/
+ 
+}
+.imgblock1 {
+  position: absolute;
+  left: 0px;
+  top: 100px;
+  display: inline-block;
+}
+
+.imgblock1 img {
+    height: 698px;
+    width: 1000px;
+}
+.imgblock1 span {
+   /*background: rgba(0,0,0,0.7); (полупрозрачность)*/
+    color: #f5a7af;
+    position: absolute;
+    left:15px;
+    bottom: -200px;
+    font-size: 306px;
+  font-family: ST-Nizhegorodsky;
+    padding: 0px 0px;
+   margin: 0px 0px 0px 50px;
+}
+.text {
+  position: absolute;
+  top: 1000px;
+  max-width: 800px;
+}
+.text span {
+  position: relative;
+  left: 200px;
+  padding: 0px;
+  font-family: Lato;
+  font-size: 25px;
+}
+.picslist {
+  position: absolute;
+  width: 1000px;
+  background: #888;
+  top: 1200px;
+}
+/**.picslist  ul {
+  position: relative;
+}
+.picslist li {
+  position: relative;
+  left: 100px;
+}**/
+.pics1 img {
+  border: 2px solid #55c5e9; /* Рамка вокруг фотографии */
+    padding: 10px; /* Расстояние от картинки до рамки */
+    background: #777; /* Цвет фона */
+    margin-left: 30px;
+    /**margin-right: 10px; /* Отступ справа
+    margin-bottom: 10px; /* Отступ снизу */
+  
+}
+.pics2 img {
+  border: 2px solid #55c5e9; /* Рамка вокруг фотографии */
+    padding: 7px; /* Расстояние от картинки до рамки */
+    background: #777; /* Цвет фона */
+    margin-left: 30px;
+    width: 273px; /* ширина картинки будет 350px*/
+    height:377px  /* высота картинки будет 350px*/
+}
+
+</style>
+    <title>Вязань</title>
+  </head>
+  <body>
+<div class="topmenu">
+<ul>
+<li><a href="#">
+<img src="images/лого.jpg" alt="Лого"></a></li>  
+<li><a href="#">Женщинам</a></li>
+<li><a href="#">Мужчинам</a></li>
+<li><a href="#">Детям</a></li>
+<li><a href="#">Скидки</a></li>
+<li><a href="#"><img src="images/иконки.jpg" alt="Личный кабинет"></a></li>
+</ul>  
+</div>
+<div class="imgblock1">
+<img src="images/верхняя_картинка.jpg" title="Весенняя коллекция 2023">
+<span>душенька</span>
+</div>  
+<div class="text">
+<span>Не нужно ждать выходных, чтобы наслаждаться жизнью! С нашей новой коллекцией беззаботное настроение всегда будет с вами. Непринуждённый кэжуал, приятный трикотаж и лаконичные фасоны подойдут для уютных и комфортных образов на каждый день.</span>
+</div>
+<div class="picslist">
+  <p class="pics1">
+    <a href="#"><img src="images/картинка1.jpg" alt="Фотография 1"></a>
+    <a href="#"><img src="images/картинка2.jpg" alt="Фотография 2"></a>
+  </p>
+  <p class="pics2">
+    <a href="#"><img src="images/картинка3.jpg" alt="Фотография 3"></a>
+    <a href="#"><img src="images/картинка4.jpg" alt="Фотография 4"></a>
+    <a href="#"><img src="images/картинка5.jpg" alt="Фотография 5"></a>
+  </p>
+  <!--<ul name= "list1">
+    <li><a href="#">Фото1</a></li>
+    <li><a href="#">Фото2</a></li>
+  </ul>
+  </br>
+    
+  <ul name="list2">
+    <li><a href="#">Фото3</a></li>
+    <li><a href="#">Фото4</a></li>
+    <li><a href="#">Фото5</a></li>
+  </ul>-->
+</div>
+</body>
+</html>
